@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.headerrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.headerrowitem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+headertoprow   {
+    background-color: var(--macprodorange);
+    color: var(--macprodblack);
+    height: 25px;
+    font-family: nmbold;
+}
+headerbottomrow   {
+    height: 25px;
+	background-color: var(--macprodorange);
+}
+header playback {
+    color: var(--macprodblack);
+	font-family: nmbold;
+    height: 25px;
+}
+header nav {
+    background-color: var(--macprodblack);
+	font-family: nmsemibold;
+    color: var(--macprodorange);
+    margin-right: 5px;	
+}#clock {
+    width: 150px;
+}
