@@ -22,110 +22,247 @@
         <headertoprow class="headerrow">
             <logotype class="headerrowitem">W:/macProd_2022-2023.exe</logotype>
             <socialmediaicons class="headerrowitem">
-                <p>[</p>
+                <div>[</div>
                 <a href="https://discord.gg/X5JrHUrc6X">
                     <img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20">
                 </a>
-                <p>]</p>
-                <p>[</p>
+                <div>]</div>
+                <div>[</div>
                 <a href="https://www.instagram.com/macproducers/?hl=en">
                     <img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20">
                 </a>
-                <p>]</p>
-                <p>[</p>
+                <div>]</div>
+                <div>[</div>
                 <a href="musicps@mcmaster.ca ">
                     <img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20">
                 </a>
-                <p>]</p>
-                <p>[</p>
+                <div>]</div>
+                <div>[</div>
                 <a href="https://soundcloud.com/macproducers">
                     <img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20">
                 </a>
-                <p>]</p>
-                <p>[</p>
+                <div>]</div>
+                <div>[</div>
+				<a href="#">
                 <img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/> 
-                <p>]</p>
-                <p>[</p>
+				</a>
+                <div>]</div>
+                <div>[</div>
                 <a href="https://www.youtube.com/@mcmastermusicproductionsoc4516/featured">
                     <img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20">
                 </a>
-                <p>]</p>
+                <div>]</div>
             </socialmediaicons>
         </headertoprow>
         <headerbottomrow class="headerrow">
-            <playback class="headerrowitem"><div id="clock" onload="updateClock()">NULL:NULL:</div><div>REC•</div><div>←</div><div>»</div><div>→</div></playback>
-            <nav class="headerrowitem"><div>Calendar</div><div>Membership</div><div>Shop</div><div>Connect</div><div>Execs</div><div>Collab</div><div>About</div></nav>
+            <playback class="headerrowitem"><div id="clock">NULL:NULL:</div><div>REC•</div><div>←</div><div>»</div><div>→</div></playback>
+            <nav class="headerrowitem"><div>CALENDAR</div><div>MEMBERSHIP</div><div>COLLAB</div><div>ITEMS</div><div>CATALOG</div><div>EXECS</div><div>ABOUT</div></nav>
         </headerbottomrow>	
-	</header>
+</header>
 	<globaloverlay>
 	
 	
 	</globaloverlay>
 	<!-- TemplateBeginEditable name="contentframe" -->
 	
-	<cframe>
-		<div class="titlemax">titlemax</div>
-		<div class="titlemid">titlemid</div>
-		<div class="heading1">heading1</div>
-		<div class="heading2">heading2</div>
-		<div class="paragraph">To start using Git in Dreamweaver, you must first associate your Dreamweaver site with a Git repository. A Git repository is like a folder that you create to help you track file changes. You can have any number of Git repositories on your computer. Each repository on your system is independent. That is, the changes saved in one Git repository do not affect the contents of another.
+	<main>
+				
+		<maintop></maintop>
+		<mainmid>
+			
+            <div id="Collab">
+                <pagetitle>
+					<h1>Collab</h1>  
+				</pagetitle>
+                <article>
+				<div class="gridcontainer">
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
 
-You can associate your website with a repository either by creating a repository or by cloning an existing repository. When you initialize or create a repository, an empty Git repository is created in your current working directory, with a .gitignore file in the folder.
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you). This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
 
-However, when you clone an existing Git repository, all the files from your parent repository are cloned to your local system.</div>
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
+
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
+
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
+
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
+
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
+
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
+
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+					<div class="griditem">
+						<img src="../media/images/collab ppl images/rotating-rystal-cube-animation.gif" alt="" width="201" height="200"/> 
+						<h3>John Doe</h3>
+						<h4>Biography</h4>
+							<p>This is the sign-up form to be added as an official producer/artist on the McMaster Music Production Society's website. (link here) This is an opportunity for you to have a profile on our website that is accessible to the public, which means artists who are looking for producers to work with can find and contact you. This is also a space for producers to find other producers to collaborate with, so feel free to reach out to anyone on the page you are interested in working with. Disclaimer: if you have a profile on our website, anyone visiting the website is free to contact you and access your artist pages. If you are not comfortable with this, please email us to be posted on the website internally (only other MacProd members can contact you).</p>
+						<h4>Styles/Genres</h4>
+							<p>ch means artists who are looking fo</p>
+						<socialmediaicons>
+
+							<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" alt="" width="20" height="20"></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" alt="" width="20" height="20"/></a>
+							<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" alt="" width="20" height="20"></a>
+							</socialmediaicons>
+						</div>
+				</div>
+				</article>  
+				
+			  <!--List of all members and their genres, interests in collaborating, etc. (all stuff that is asked on the membership google form) 
+                Use Queen’s collab page as a template: https://www.theqwave.ca/collab--> 
+            </div>	
+
+
+            <div id="About">
+                <h1>About</h1>  
+                
+				
+				
+				<!--What the club is (use the stuff from the powerpoint)-->
+            </div>	
+
+
+
+            <div id="Catalog">
+                <h1>Catalog</h1>  
+                
+				
+				
+				<!--Gather videos and resources for our members to refer to, to learn about production (tutorials, etc.) 
+                Consider splitting this up into sections (beginner, intermediate, pro) resources-->
+            </div>	
+
+			
 		
-		<cframetop></cframetop>
-		<cframemid>
-		<div>
-			<div class="titlemax">Homepage</div> 
-		</div>
-		<div>
-			<div class="titlemax">Calendar</div>  
-		  <iframe src="https://calendar.google.com/calendar/embed?src=b8e5627736cae14fa4e16e31d13c5d9459a5f502e07d189ffe6b28d3099f6a29%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0; background-color: var(--macprodblack)" width="100%" height="900px" frameborder="0" scrolling="no"></iframe>
-			Embedded shared google/outlook calendar 
-			Macproducersyt@gmail.com (password: MacMacMac) 
-			Membership (have 2 subheadings, 1 for sign up tutorial and 1 for membership google form) 
-			Tutorial on how to sign up (link to musc, and please use the instructions on the slide show that I shared with you Tyler) 
-			Membership google form (keep track of members + member sign up onto the Collab page)
-			
-		</div>	
-		<div>
-			<div class="titlemax">Items</div>  
-			Paypal button for everything? 
-			Shirts 
-			Description (images, available sizing, etc.) 
-			Thinking we just post images (from photoshoot too) of merch and say for them to contact us if interested, and they pay in person at meetings 
-			Stickers (say “they are free, come to meetings to get them”)
-		</div>
-		<div>
-			<div class="titlemax">Execs</div>  
-			Use the instagram posts 
-			NO GALLERY Pictures of merch, events, “hall of fame” (sprinkle photos throughout the website, don’t need a separate gallery page) 
-			Check Teams/ for images to post, also we need to take more photos of our future meetings 
-			Livelab meeting images posted on Instagram, feel free to use those as well
-		</div>	
-		<div>
-			<div class="titlemax">Collab</div>  
-			List of all members and their genres, interests in collaborating, etc. (all stuff that is asked on the membership google form) 
-			Use Queen’s collab page as a template: https://www.theqwave.ca/collab 
-		</div>	
-		<div>
-			<div class="titlemax">About</div>  
-			What the club is (use the stuff from the powerpoint)
-		</div>	
-		<div>
-			<div class="titlemax">Catalog</div>  
-			Gather videos and resources for our members to refer to, to learn about production (tutorials, etc.) 
-			Consider splitting this up into sections (beginner, intermediate, pro) resources
-		</div>	
-			
-			
-		
-		</cframemid>
-		<cframebottom></cframebottom>
+		</mainmid>
+		<mainbottom></mainbottom>
 	
 	
-	</cframe>
+	</main>
 	
 	
 <!-- TemplateEndEditable -->

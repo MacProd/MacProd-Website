@@ -31,31 +31,55 @@
 globaloverlay  {
 }
 
-.titlemax {
+h1 {
     color: var(--macprodgray);
     font-family: nmbold;
     font-size: 200px;
-    line-height: 100px;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.titlemid {
+h2 {
     color: var(--macprodgray);
     font-family: nmblack;
     font-size: 96px;
-    line-height: 48px;
+    line-height: 96px;
+	margin-top: 0px;
+    margin-bottom: 0px;
 }
-.heading1 {
+h3 {
 	color: var(--macprodgray);	
 	font-family: nmbold;
     font-size: 36px;
+	line-height: 36px;
+	margin-top: 0px;
+    margin-bottom: 0px;
 }
-.heading2 {
+h4 {
 	color: var(--macprodgray);
 	font-family: nmpsemibold;
     font-size: 14px;
+	line-height: 14px;
+	margin-top: 0px;
+    margin-bottom: 0px;
 }
-.paragraph {
+p {
     color: var(--macprodgray);
     font-family: nmplight;
     font-size: 12px;
+	line-height: 14px;
+	margin-top: 0px;
+    margin-bottom: 0px;
 }
+
+ol {
+    color: var(--macprodgray);
+    font-family: nmplight;
+    font-size: 12px;
+	line-height: 12px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
