@@ -1,3 +1,61 @@
 @charset "utf-8";
+:root{
+	--macprodblue:#0041db;
+	--macprodorange:#f93304;
+	--macprodblack:#0c0c0c;
+	--macprodgray:#c1c3c0;	
+	
+}
+@font-face {
+  font-family: nmbold;
+  src: url("fonts/pp_neue_machina/TTF/PPNeueMachina-InktrapBold.ttf");
+}
+@font-face {
+  font-family: nmsemibold;
+  src: url("fonts/pp_neue_machina/TTF/PPNeueMachina-InktrapSemibold.ttf");
+}
+@font-face {
+  font-family: nmplight;
+  src: url("fonts/pp_neue_machina/TTF/PPNeueMachina-PlainLight.ttf");
+}
+@font-face {
+  font-family: nmpsemibold;
+  src: url("fonts/pp_neue_machina/TTF/PPNeueMachina-PlainSemibold.ttf");
+}
+@font-face {
+  font-family: nmblack;
+  src: url("fonts/pp_neue_machina/TTF/PPNeueMachina-InktrapBlack.ttf");
+}
+
+
 globaloverlay  {
+}
+
+.titlemax {
+    color: var(--macprodgray);
+    font-family: nmbold;
+    font-size: 200px;
+    line-height: 100px;
+}
+
+.titlemid {
+    color: var(--macprodgray);
+    font-family: nmblack;
+    font-size: 96px;
+    line-height: 48px;
+}
+.heading1 {
+	color: var(--macprodgray);	
+	font-family: nmbold;
+    font-size: 36px;
+}
+.heading2 {
+	color: var(--macprodgray);
+	font-family: nmpsemibold;
+    font-size: 14px;
+}
+.paragraph {
+    color: var(--macprodgray);
+    font-family: nmplight;
+    font-size: 12px;
 }

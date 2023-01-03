@@ -10,8 +10,9 @@
 	<link href="../styling/header.css" rel="stylesheet" type="text/css">
 	<link href="../styling/macprodca styling.css" rel="stylesheet" type="text/css">
 	<link href="../styling/global.css" rel="stylesheet" type="text/css">
-	<script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+	<script type="text/javascript" src="../scripts/p5.js"></script>
 	<script type="text/javascript" src="../scripts/global.js"></script>
+	
 
 
 </head>
@@ -63,8 +64,64 @@
 	<!-- TemplateBeginEditable name="contentframe" -->
 	
 	<cframe>
+		<div class="titlemax">titlemax</div>
+		<div class="titlemid">titlemid</div>
+		<div class="heading1">heading1</div>
+		<div class="heading2">heading2</div>
+		<div class="paragraph">To start using Git in Dreamweaver, you must first associate your Dreamweaver site with a Git repository. A Git repository is like a folder that you create to help you track file changes. You can have any number of Git repositories on your computer. Each repository on your system is independent. That is, the changes saved in one Git repository do not affect the contents of another.
+
+You can associate your website with a repository either by creating a repository or by cloning an existing repository. When you initialize or create a repository, an empty Git repository is created in your current working directory, with a .gitignore file in the folder.
+
+However, when you clone an existing Git repository, all the files from your parent repository are cloned to your local system.</div>
+		
 		<cframetop></cframetop>
-		<cframemid></cframemid>
+		<cframemid>
+		<div>
+			<div class="titlemax">Homepage</div> 
+		</div>
+		<div>
+			<div class="titlemax">Calendar</div>  
+		  <iframe src="https://calendar.google.com/calendar/embed?src=b8e5627736cae14fa4e16e31d13c5d9459a5f502e07d189ffe6b28d3099f6a29%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0; background-color: var(--macprodblack)" width="100%" height="900px" frameborder="0" scrolling="no"></iframe>
+			Embedded shared google/outlook calendar 
+			Macproducersyt@gmail.com (password: MacMacMac) 
+			Membership (have 2 subheadings, 1 for sign up tutorial and 1 for membership google form) 
+			Tutorial on how to sign up (link to musc, and please use the instructions on the slide show that I shared with you Tyler) 
+			Membership google form (keep track of members + member sign up onto the Collab page)
+			
+		</div>	
+		<div>
+			<div class="titlemax">Items</div>  
+			Paypal button for everything? 
+			Shirts 
+			Description (images, available sizing, etc.) 
+			Thinking we just post images (from photoshoot too) of merch and say for them to contact us if interested, and they pay in person at meetings 
+			Stickers (say “they are free, come to meetings to get them”)
+		</div>
+		<div>
+			<div class="titlemax">Execs</div>  
+			Use the instagram posts 
+			NO GALLERY Pictures of merch, events, “hall of fame” (sprinkle photos throughout the website, don’t need a separate gallery page) 
+			Check Teams/ for images to post, also we need to take more photos of our future meetings 
+			Livelab meeting images posted on Instagram, feel free to use those as well
+		</div>	
+		<div>
+			<div class="titlemax">Collab</div>  
+			List of all members and their genres, interests in collaborating, etc. (all stuff that is asked on the membership google form) 
+			Use Queen’s collab page as a template: https://www.theqwave.ca/collab 
+		</div>	
+		<div>
+			<div class="titlemax">About</div>  
+			What the club is (use the stuff from the powerpoint)
+		</div>	
+		<div>
+			<div class="titlemax">Catalog</div>  
+			Gather videos and resources for our members to refer to, to learn about production (tutorials, etc.) 
+			Consider splitting this up into sections (beginner, intermediate, pro) resources
+		</div>	
+			
+			
+		
+		</cframemid>
 		<cframebottom></cframebottom>
 	
 	
@@ -72,5 +129,7 @@
 	
 	
 <!-- TemplateEndEditable -->
+	
+
 </body>
 </html>

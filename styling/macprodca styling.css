@@ -1,35 +1,5 @@
 @charset "utf-8";
 
-:root{
-	--macprodblue:#0041db;
-	--macprodorange:#f93304;
-	--macprodblack:#0c0c0c;
-	--macprodgray:#c1c3c0;	
-	
-}
-@font-face {
-  font-family: nmbold;
-  src: url("fonts/pp_neue_machina/TTF/PPNeueMachina-InktrapBold.ttf");
-}
-@font-face {
-  font-family: nmsemibold;
-  src: url("fonts/pp_neue_machina/TTF/PPNeueMachina-InktrapSemibold.ttf");
-}
-
-
-
-.p1 {
-  font-family: nmbold;
-	color: var(--macprodorange)
-}
-
-.p2 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.p3 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
 
 
 body {
@@ -38,14 +8,19 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-	overflow: hidden;
+    /* [disabled]overflow: hidden; */
+    height: auto;
 }
-
-
-
-
-contentframe {
-    border-style: solid;
-    border-color: var(--macprodorange);
-    border-width: 5px;
+cframe {
+    overflow: scroll;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+cframemid div {
+    margin-top: 150px;
+    margin-bottom: 150px;
 }

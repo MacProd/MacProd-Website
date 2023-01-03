@@ -1,3 +1,12 @@
+function setup() {
+	createCanvas(400, 400);
+	
+}
+
+function draw() {
+	background(127);
+}	
+
 setInterval(
 function updateClock() {
     var date = new Date();
@@ -18,4 +27,13 @@ function updateClock() {
 	document.getElementById("clock").innerHTML = time;
 	
 }
+	
+
+	
 , 7);
+
+
+
+
+
+
