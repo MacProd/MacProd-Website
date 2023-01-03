@@ -31,46 +31,51 @@
 globaloverlay  {
 }
 
-h1 {
+titlemax {
     color: var(--macprodgray);
     font-family: nmbold;
     font-size: 200px;
     line-height: 1;
     margin-top: 0px;
     margin-bottom: 0px;
+	display:block;
 }
 
-h2 {
+titlemid {
     color: var(--macprodgray);
     font-family: nmblack;
     font-size: 96px;
     line-height: 96px;
 	margin-top: 0px;
     margin-bottom: 0px;
+	display:block;
 }
-h3 {
+titlemin {
 	color: var(--macprodgray);	
 	font-family: nmbold;
     font-size: 36px;
 	line-height: 36px;
 	margin-top: 0px;
     margin-bottom: 0px;
+	display:block;
 }
-h4 {
+heading {
 	color: var(--macprodgray);
 	font-family: nmpsemibold;
     font-size: 14px;
 	line-height: 14px;
 	margin-top: 0px;
     margin-bottom: 0px;
+	display:block;
 }
-p {
+paragraph {
     color: var(--macprodgray);
     font-family: nmplight;
     font-size: 12px;
 	line-height: 14px;
 	margin-top: 0px;
     margin-bottom: 0px;
+	display:block;
 }
 
 ol {

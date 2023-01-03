@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div id="Homepage">
-             	<pagetitle><h1>Homepage</h1></pagetitle>
+             	<pagetitle><titlemax>Homepage</titlemax></pagetitle>
 				 
                 <article></article>
             </div>
@@ -8,22 +8,22 @@
 
 
             <div id="Calendar">
-                <h1>Calendar</h1>  
+                <titlemax>Calendar</titlemax>  
               	<iframe src="https://calendar.google.com/calendar/embed?src=b8e5627736cae14fa4e16e31d13c5d9459a5f502e07d189ffe6b28d3099f6a29%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0; background-color: var(--macprodblack)" width="100%" height="900px" frameborder="0" scrolling="no"></iframe>
             </div>
 
 
 
             <div id="Membership">
-                <h1>Membership</h1>
-                <h2>Official Member Signup</h2>	
-					<h4>Please help us out and sign up through the msumcmaster.ca (it’s free and only takes a couple seconds)</h4>
-					<p>The more official members we get, the more funds we receive. This means better events and prizes (licenses, plug-ins, drum kits, etc.)</p>
+                <titlemax>Membership</titlemax>
+                <titlemid>Official Member Signup</titlemid>	
+					<heading>Please help us out and sign up through the msumcmaster.ca (it’s free and only takes a couple seconds)</heading>
+					<paragraph>The more official members we get, the more funds we receive. This means better events and prizes (licenses, plug-ins, drum kits, etc.)</paragraph>
 					<ol><li>Visit the MSU website and find our club in the Clubs Directory page by searching for “McMaster Music Production Society”, or click <a url="https://msumcmaster.ca/initiative/mcmaster-music-production-society/">HERE</a></li>
 					<li>Click “Join Now” and you will be directed to checking out with a club membership in your cart. Fill in a quantity of 1 and add to cart. Your cart should update with your free membership.</li>
 					<li>Click “View Cart” and then fill out the form. Click “Confirm Order”, and you’re all done! Thanks for becoming a MacProd member.</li></ol>
-                <h2>Unofficial Member Signup</h2>
-				<h3>Let us get to know you!</h3>
+                <titlemid>Unofficial Member Signup</titlemid>
+				<titlemin>Let us get to know you!</titlemin>
 				
 
 
@@ -38,7 +38,7 @@
             </div>		
 
           <div id="Items">
-            <h1>Items</h1>  
+            <titlemax>Items</titlemax>  
               <img class="media" src="../media/images/merch post/macprod merch post-02.png" width="450" height="450" alt=""/>
 
 			  
@@ -51,7 +51,7 @@
 
 
             <div id="Execs">
-                <h1>Execs</h1>  
+                <titlemax>Execs</titlemax>  
                 
 				
 				<!--Use the instagram posts 
