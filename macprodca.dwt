@@ -59,7 +59,9 @@
         </headerbottomrow>	
 </header>
 	<globaloverlay>
-	
+		<contentarea></contentarea>
+		<bottomleft><titlemax>aweawejalweijawiel</titlemax></bottomleft>
+		
 	
 	</globaloverlay>
 	<!-- TemplateBeginEditable name="contentframe" -->
