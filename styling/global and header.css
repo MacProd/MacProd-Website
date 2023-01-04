@@ -6,8 +6,9 @@
 	--macprodgray:#c1c3c0;	
 	--globalspacing:15px;
 	--headerspacing:calc(var(--globalspacing)*0.5);
-	--headertextheight:calc(var(--headerspacing)*2.4);
+	--headertextheight:calc(var(--headerspacing)*2.2);
 	--headericonsize:calc(var(--headerspacing)*2.6);
+	--headertopbottompaddingfactor:0.3;
 }
 @font-face {
   font-family: nmbold;
@@ -109,8 +110,8 @@ header {
 headertoprow   {
     padding-left: var(--headerspacing);
     padding-right: var(--headerspacing);
-	padding-top: var(--headerspacing);
-	padding-bottom: calc(var(--headerspacing)*0.5);
+	padding-top: calc(var(--headerspacing)*var(--headertopbottompaddingfactor));
+	padding-bottom: calc(var(--headerspacing)*var(--headertopbottompaddingfactor));
 
 	color: var(--macprodblack);
     font-family: nmblack;
@@ -120,7 +121,7 @@ headertoprow   {
 headerbottomrow  {
 	padding-left: var(--headerspacing);
     padding-right: var(--headerspacing);
-	padding-bottom:  calc(var(--headerspacing)*0.8);
+	padding-bottom:  calc(var(--headerspacing)*0.6);
 	}
 header playback {
 	color: var(--macprodblack);
@@ -132,7 +133,7 @@ header nav {
     background-color: var(--macprodblack);
 	
 	font-family: nmbold;
-	font-size: calc(var(--headertextheight)*0.9);
+	font-size: calc(var(--headertextheight)*0.8);
 	
 	line-height: 1;
     color: var(--macprodorange);
@@ -140,8 +141,8 @@ header nav {
 	gap: var(--headerspacing);
 	padding-left: calc(var(--headertextheight)*0.3);
     padding-right: calc(var(--headertextheight)*0.3);
-	padding-top: calc(var(--headertextheight)*0.3);
-	padding-bottom: calc(var(--headertextheight)*0.2);
+	padding-top: calc(var(--headertextheight)*0.15);
+	padding-bottom: calc(var(--headertextheight)*0.1);
 	}
 #clock {
     width: 150px;
@@ -150,8 +151,10 @@ header nav {
 
 
 globaloverlay {
-    
-	border-style: solid;
+    border-style: solid;
     border-color: var(--macprodorange);
     border-width: var(--headerspacing);
+    display: block;
+    width: 100vw;
+    height: 100%;
 }
