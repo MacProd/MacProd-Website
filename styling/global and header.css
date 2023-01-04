@@ -4,7 +4,6 @@
 	--macprodorange:#f93304;
 	--macprodblack:#0c0c0c;
 	--macprodgray:#c1c3c0;	
-	
 }
 @font-face {
   font-family: nmbold;
@@ -34,45 +33,49 @@ globaloverlay  {
 titlemax {
     color: var(--macprodgray);
     font-family: nmbold;
-    font-size: 200px;
-    line-height: 1;
+    font-size: 120px;
+    line-height: 0.9;
     margin-top: 0px;
     margin-bottom: 0px;
-	display:block;
+    display: block;
+    text-transform: uppercase;
+    text-align: justify;
+    text-justify: inter-character;
 }
 
 titlemid {
     color: var(--macprodgray);
     font-family: nmblack;
-    font-size: 96px;
-    line-height: 96px;
+    font-size: 45px;
+    line-height: 0.8;
 	margin-top: 0px;
     margin-bottom: 0px;
 	display:block;
 }
 titlemin {
-	color: var(--macprodgray);	
-	font-family: nmbold;
-    font-size: 36px;
-	line-height: 36px;
-	margin-top: 0px;
+    color: var(--macprodgray);
+    font-family: nmbold;
+    font-size: 30px;
+    line-height: 0.8;
+    margin-top: 5px;
     margin-bottom: 0px;
-	display:block;
+    display: block;
+    text-transform: uppercase;
 }
 heading {
 	color: var(--macprodgray);
 	font-family: nmpsemibold;
-    font-size: 14px;
-	line-height: 14px;
-	margin-top: 0px;
-    margin-bottom: 0px;
+    font-size: 13px;
+	line-height: 1;
+	margin-top: 5px;
+    margin-bottom: 2px;
 	display:block;
 }
 paragraph {
     color: var(--macprodgray);
     font-family: nmplight;
-    font-size: 12px;
-	line-height: 14px;
+    font-size: 11px;
+	line-height: 1.1;
 	margin-top: 0px;
     margin-bottom: 0px;
 	display:block;
@@ -86,5 +89,56 @@ ol {
 	margin-top: 0px;
     margin-bottom: 0px;
 }
+
+
+
+/*HEADER STUFF BELOW*/
+.headerrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.headerrowitem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+headertoprow   {
+    background-color: var(--macprodorange);
+    height: 20px;
+	color: var(--macprodblack);
+    font-family: nmblack;
+	font-size: 16px;
+	line-height: 1;
+}
+headerbottomrow   {
+    background-color: var(--macprodorange);
+	height: 20px;
+}
+
+header playback {
+	color: var(--macprodblack);
+	font-family: nmbold;
+	font-size: 16px;
+	line-height: 1;
+}
+
+
+header nav {
+    background-color: var(--macprodblack);
+	font-family: nmsemibold;
+	font-size: 16px;
+	line-height: 1;
+    color: var(--macprodorange);
+    margin-right: 5px;
+	margin-left: 5px;
+}
+#clock {
+    width: 150px;
+}
+
 
 

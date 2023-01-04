@@ -22,7 +22,7 @@ function updateClock() {
 	ms = ((ms < 100) && (9 < ms)) ? "0" + ms : ms;
 	ms = (ms < 10) ? "00" + ms : ms;
     
-    var time = "00" + h + ":" + m + ":" + s + ":" + ms;
+    var time = h + ":" + m + ":" + s + ":" + ms;
 	
 	document.getElementById("clock").innerHTML = time;
 	
