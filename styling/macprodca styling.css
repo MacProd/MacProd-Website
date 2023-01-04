@@ -12,10 +12,10 @@ body {
     height: auto;
 }
 main {
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding-top: var(--globalspacing);
+    padding-right: var(--globalspacing);
+    padding-bottom: var(--globalspacing);
+    padding-left: var(--globalspacing);
 }
 
 .media {
