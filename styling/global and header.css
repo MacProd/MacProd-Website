@@ -132,17 +132,17 @@ header playback {
 header nav {
     background-color: var(--macprodblack);
 	
-	font-family: nmbold;
-	font-size: calc(var(--headertextheight)*0.8);
+	font-family: nmsemibold;
+	font-size: calc(var(--headertextheight)*0.9);
 	
 	line-height: 1;
     color: var(--macprodorange);
-    
+	margin: 0px;
 	gap: var(--headerspacing);
 	padding-left: calc(var(--headertextheight)*0.3);
     padding-right: calc(var(--headertextheight)*0.3);
 	padding-top: calc(var(--headertextheight)*0.15);
-	padding-bottom: calc(var(--headertextheight)*0.1);
+	padding-bottom: calc(var(--headertextheight)*0.15);
 	}
 #clock {
     width: 150px;
