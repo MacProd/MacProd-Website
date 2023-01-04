@@ -5,10 +5,11 @@
 	--macprodblack:#0c0c0c;
 	--macprodgray:#c1c3c0;	
 	--globalspacing:15px;
-	--headerspacing:calc(var(--globalspacing)*0.5);
+	--headerspacing:calc(var(--globalspacing)*0.7);
 	--headertextheight:calc(var(--headerspacing)*2.2);
 	--headericonsize:calc(var(--headerspacing)*2.6);
 	--headertopbottompaddingfactor:0.3;
+	--paragraphfontsize:16px;
 }
 @font-face {
   font-family: nmbold;
@@ -38,7 +39,7 @@ globaloverlay  {
 titlemax {
     color: var(--macprodgray);
     font-family: nmbold;
-    font-size: 120px;
+    font-size: calc(var(--paragraphfontsize)*6);
     line-height: 0.9;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -50,7 +51,7 @@ titlemax {
 titlemid {
     color: var(--macprodgray);
     font-family: nmblack;
-    font-size: 45px;
+    font-size: calc(var(--paragraphfontsize)*3);
     line-height: 0.8;
 	margin-top: 0px;
     margin-bottom: 0px;
@@ -59,9 +60,9 @@ titlemid {
 titlemin {
     color: var(--macprodgray);
     font-family: nmbold;
-    font-size: 30px;
+    font-size: calc(var(--paragraphfontsize)*2);
     line-height: 0.8;
-    margin-top: 5px;
+    margin-top: calc(var(--paragraphfontsize)*0.5);
     margin-bottom: 0px;
     display: block;
     text-transform: uppercase;
@@ -69,16 +70,16 @@ titlemin {
 heading {
 	color: var(--macprodgray);
 	font-family: nmpsemibold;
-    font-size: 13px;
+    font-size: calc(var(--paragraphfontsize)*1.2);
 	line-height: 1;
-	margin-top: 5px;
-    margin-bottom: 2px;
+	margin-top: calc(var(--paragraphfontsize)*0.6);
+    margin-bottom: calc(var(--paragraphfontsize)*0.1);
 	display:block;
 	}
 paragraph {
     color: var(--macprodgray);
     font-family: nmplight;
-    font-size: 11px;
+    font-size: var(--paragraphfontsize);
 	line-height: 1.1;
 	margin-top: 0px;
     margin-bottom: 0px;
@@ -110,7 +111,7 @@ header {
 headertoprow   {
     padding-left: var(--headerspacing);
     padding-right: var(--headerspacing);
-	padding-top: calc(var(--headerspacing)*var(--headertopbottompaddingfactor));
+	padding-top: calc(var(--headerspacing)*var(--headertopbottompaddingfactor)*1.2);
 	padding-bottom: calc(var(--headerspacing)*var(--headertopbottompaddingfactor));
 
 	color: var(--macprodblack);
@@ -125,7 +126,7 @@ headerbottomrow  {
 	}
 header playback {
 	color: var(--macprodblack);
-	font-family: nmbold;
+	font-family: nmsemibold;
 	font-size: var(--headertextheight);
 	line-height: 1;
 	}
@@ -134,10 +135,9 @@ header nav {
 	
 	font-family: nmsemibold;
 	font-size: calc(var(--headertextheight)*0.9);
-	
 	line-height: 1;
     color: var(--macprodorange);
-	margin: 0px;
+	
 	gap: var(--headerspacing);
 	padding-left: calc(var(--headertextheight)*0.3);
     padding-right: calc(var(--headertextheight)*0.3);
@@ -145,7 +145,7 @@ header nav {
 	padding-bottom: calc(var(--headertextheight)*0.15);
 	}
 #clock {
-    width: 150px;
+    width: calc(var(--headerspacing)*20);
 	}
 
 
