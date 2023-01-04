@@ -9,13 +9,12 @@ body {
     margin-bottom: 0px;
     margin-left: 0px;
     /* [disabled]overflow: hidden; */
-    height: auto;
 }
 main {
-    padding-top: var(--globalspacing);
-    padding-right: var(--globalspacing);
-    padding-bottom: var(--globalspacing);
-    padding-left: var(--globalspacing);
+    padding-top: calc(var(--globalspacing)*6);
+    padding-right: calc(var(--globalspacing)*1.5);
+    padding-bottom: calc(var(--globalspacing)*1.5);
+    padding-left: calc(var(--globalspacing)*2)
 }
 
 .media {
@@ -37,4 +36,18 @@ main {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+}
+
+globaloverlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index: 4;
+    box-sizing: border-box;
+    border-width: calc(var(--globalspacing)*0.5);
+    border-style: solid;
+    border-color: var(--macprodorange);
+    -webkit-box-shadow: inset 0px 0px var(--globalspacing) 0px var(--macprodorange);
+    box-shadow: inset 0px 0px var(--globalspacing) 0px var(--macprodorange);
 }

@@ -96,8 +96,13 @@ ol {
 
 /*HEADER STUFF BELOW*/
 header {
-	background-color: var(--macprodorange);
-	margin: 0px;
+    background-color: var(--macprodorange);
+    margin: 0px;
+    z-index: 5;
+    position: fixed;
+    width: 100vw;
+    text-shadow: 0px 0px 77px box-sizing
+: border-box;;
 }
 .headerrow {
     display: flex;
@@ -150,11 +155,4 @@ header nav {
 
 
 
-globaloverlay {
-    border-style: solid;
-    border-color: var(--macprodorange);
-    border-width: var(--headerspacing);
-    display: block;
-    width: 100vw;
-    height: 100%;
-}
+
