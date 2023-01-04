@@ -16,11 +16,6 @@ main {
     padding-bottom: calc(var(--globalspacing)*1.5);
     padding-left: calc(var(--globalspacing)*2)
 }
-globaloverlay bottomleft {
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-}
 
 
 .media {
@@ -54,6 +49,21 @@ globaloverlay {
     border-width: calc(var(--globalspacing)*0.5);
     border-style: solid;
     border-color: var(--macprodorange);
-    -webkit-box-shadow: inset 0px 0px var(--globalspacing) 0px var(--macprodorange);
-    box-shadow: inset 0px 0px var(--globalspacing) 0px var(--macprodorange);
+    -webkit-box-shadow: inset 0px 0px calc(var(--globalspacing)*3) 0px var(--macprodorange);
+    box-shadow: inset 0px 0px calc(var(--globalspacing)*3) 0px var(--macprodorange);
+}
+globaloverlay bottomleft {
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+}
+globaloverlay contentarea {
+    width: 100vw;
+    height: 100vh;
+}
+globalbackground {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
 }
