@@ -1,22 +1,22 @@
 let floatyposold = [];
 let floatyposnew = [];
 let floatypos = [];
-let divisions = 120;
-let numpoints = 10;
+let divisions = 800;
+let numpoints = 24;
 let j = 0;
 
 function setup() {
 	let cnv = createCanvas(windowWidth, windowHeight);
 	cnv.parent('p5globalbackground');
-	frameRate(60);
+	frameRate(30);
 	for (let i = 0; i < numpoints; i++) {
-		floatypos[i] = [random(windowWidth),random(windowHeight)];
+		floatypos[i] = [random(windowWidth),random(windowHeight),random(10)];
 	}
 	floatyposold = floatypos.slice(0,numpoints);
 	for (let i = 0; i < numpoints; i++) {
-			floatyposnew[i] = [random(windowWidth),random(windowHeight)];
+			floatyposnew[i] = [random(windowWidth),random(windowHeight),floatypos[i][2]];
 	}
-		
+		noiseSeed(random(999))
 }
 
 function draw() {
@@ -27,11 +27,13 @@ function draw() {
 	} else {
 		j = 0;
 		floatyposold = floatypos.slice(0,numpoints);
-		print('setup')
+		//floatyposold = floatypos;
 		for (let i = 0; i < numpoints; i++) {
-			if (random(1)>0.8) {
-				floatyposnew[i] = [random(windowWidth),random(windowHeight)];
-			}
+			//if (random(1)>0.8) {
+			//noiseSeed(mouseX*mouseY)
+//			floatyposnew[i] = [noise(i+mouseX/3000,0)*(windowWidth),noise(0,i+mouseY/3000)*(windowHeight)];
+			floatyposnew[i] = [random(windowWidth),random(windowHeight),floatypos[i][2]];
+			//}
 			
 		}
 		
@@ -43,37 +45,58 @@ function iteratepoints() {
         var floatyposx = (floatyposnew[i][0]-floatyposold[i][0])*(j/divisions)+floatyposold[i][0];
 		
         var floatyposy = (floatyposnew[i][1]-floatyposold[i][1])*(j/divisions)+floatyposold[i][1];
-        floatypos[i] = [floatyposx,floatyposy];
+        floatypos[i] = [floatyposx,floatyposy, floatypos[i][2]];
 	}
 }
 
 function generateshape() {
 	let macprodblack = color(12, 12, 12);
 	let macprodblue = color(0, 65, 219);
-	background(macprodblack);
-	
-	noFill();
-	stroke(macprodblue);
-	strokeWeight(15);
-	beginShape();
+	clear();
 	for (let i = 0; i < numpoints; i++) {
-		curveVertex(floatypos[i][0],floatypos[i][1],0,0);
+		stroke(macprodblue)
+		strokeWeight(noise(floatypos[i][0]/200,floatypos[i][1]/200)*600)
+		point(floatypos[i][0],floatypos[i][1]);
 	}
-	endShape();
+	
+//	for (let i = 0; i < numpoints; i=i+4) {
+//		stroke(macprodblue);
+//		strokeWeight(floatypos[i][2]);
+//		//noStroke();
+//		fill(macprodblue);
+//		//noFill();
+//		
+//		beginShape();
+//		curveVertex(floatypos[i][0],floatypos[i][1]);
+//		curveVertex(floatypos[i+1][0],floatypos[i+1][1]);
+//		curveVertex(floatypos[i+2][0],floatypos[i+2][1]);
+//		
+//		curveVertex(floatypos[i][0],floatypos[i][1]);
+//		endShape(CLOSE);
+//	}
 	
 	
-	fill(macprodblue);
-		strokeWeight(1);
-		stroke(macprodblue);
-	for (let i = 1; i < numpoints-1; i++) {
-		
-		beginShape();
-		vertex(floatypos[i+1][0],floatypos[i+1][1]);
-		vertex(floatypos[i][0],floatypos[i][1]);
-		vertex(floatypos[i-1][0],floatypos[i-1][1]);
-		bezierVertex(floatypos[i][0],floatypos[i][1],floatypos[i][0],floatypos[i][1],floatypos[i+1][0],floatypos[i+1][1]);
-		endShape();
-  	}
-	print('drawn')
+//	noFill();
+//	stroke(macprodblue);
+//	strokeWeight(windowWidth/50);
+//	beginShape();
+//	for (let i = 0; i < numpoints; i++) {
+//		curveVertex(floatypos[i][0],floatypos[i][1],0,0);
+//	}
+//	endShape();
+//	
+//	
+//	fill(macprodblue);
+//		strokeWeight(1);
+//		stroke(macprodblack);
+//	for (let i = 1; i < numpoints-1; i++) {
+//		
+//		beginShape();
+//		vertex(floatypos[i+1][0],floatypos[i+1][1]);
+//		vertex(floatypos[i][0],floatypos[i][1]);
+//		vertex(floatypos[i-1][0],floatypos[i-1][1]);
+//		bezierVertex(floatypos[i][0],floatypos[i][1],floatypos[i][0],floatypos[i][1],floatypos[i+1][0],floatypos[i+1][1]);
+//		endShape();
+//  	}
 	
 }

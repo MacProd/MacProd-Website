@@ -25,7 +25,7 @@ main {
     -webkit-box-shadow: 0px 0px 100px 10px var(--macprodorange);
     box-shadow: 0px 0px 100px 10px var(--macprodorange);
 }
-#Collab .gridcontainer {
+.gridcontainer  {
     display: grid;
 	gap: 20px;
 	grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
@@ -49,8 +49,8 @@ globaloverlay {
     border-width: calc(var(--globalspacing)*0.5);
     border-style: solid;
     border-color: var(--macprodorange);
-    -webkit-box-shadow: inset 0px 0px calc(var(--globalspacing)*3) 0px var(--macprodorange);
-    box-shadow: inset 0px 0px calc(var(--globalspacing)*3) 0px var(--macprodorange);
+    
+	pointer-events:none;
 }
 globaloverlay bottomleft {
     bottom: 0px;
@@ -66,4 +66,6 @@ globalbackground {
     width: 100vw;
     height: 100vh;
     z-index: -5;
+    -webkit-box-shadow: inset 0px 0px calc(var(--globalspacing)*3) 0px var(--macprodorange );
+    box-shadow: inset 0px 0px calc(var(--globalspacing)*3) 0px var(--macprodorange );
 }

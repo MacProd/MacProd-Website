@@ -1,11 +1,6 @@
-function setup() {
-	createCanvas(0,0);
-	
-}
 
-function draw() {
-	background(127);
-}	
+
+
 
 setInterval(
 function updateClock() {

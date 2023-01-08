@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Untitled Document</title>
+	<!-- TemplateEndEditable -->
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+	<link href="../styling/macprodca styling.css" rel="stylesheet" type="text/css">
+	<link href="../styling/global and header.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../scripts/p5.js"></script>
+	<script type="text/javascript" src="../scripts/global.js"></script> 
+	
+
+
+</head>
+
+<body>
+	<global>
+		<globaloverlay>
+			<contentarea>
+	<!--
+				<div id="p5globaloverlay"></div>
+				<script type="text/javascript" src="scripts/GlobalOverlayContentArea.js"></script>
+	-->
+			</contentarea>
+			<bottomleft><titlemid>hello</titlemid></bottomleft>
+			</globaloverlay>
+		<globalbackground>
+			<div id="p5globalbackground"></div>
+			<script type="text/javascript" src="../scripts/GlobalBackgroundContentArea.js"></script>
+			</globalbackground>
+	</global>
+	
+	
+	<header>
+        <headertoprow class="headerrow">
+            <logotype class="headerrowitem">W:/macProd_2022-2023.exe</logotype>
+            <socialmediaicons class="headerrowitem">
+                <div>[</div>
+                <a href="https://discord.gg/X5JrHUrc6X"><img src="../media/images/social media icons/icons8-discord.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div><div>[</div>
+                <a href="https://www.instagram.com/macproducers/?hl=en"><img src="../media/images/social media icons/icons8-instagram.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div><div>[</div>
+                <a href="musicps@mcmaster.ca "><img src="../media/images/social media icons/icons8-mail.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div><div>[</div>
+                <a href="https://soundcloud.com/macproducers"><img src="../media/images/social media icons/icons8-soundcloud.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div><div>[</div>
+				<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/> </a>
+                <div>]</div><div>[</div>
+                <a href="https://www.youtube.com/@mcmastermusicproductionsoc4516/featured"><img src="../media/images/social media icons/icons8-youtube.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+            </socialmediaicons>
+        </headertoprow>
+        <headerbottomrow class="headerrow">
+            <playback class="headerrowitem"><div id="clock">NULL:NULL:</div><div>REC•</div><div>←</div><div>»</div><div>→</div></playback>
+            <nav class="headerrowitem"><a href="../calendar.html">CALENDAR</a><a href="../membership.html">MEMBERSHIP</a><a href="../collab.html">COLLAB</a><a href="../items.html">ITEMS</a><a href="../catalog.html">CATALOG</a><a href="../execs.html">EXECS</a><a href="../about.html">ABOUT</a></nav>
+        </headerbottomrow>	
+	</header>
+	 
+	
+<!-- TemplateBeginEditable name="contentframe" -->
+	
+	<main>	
+		<maintop></maintop>
+		<mainmid>
+			<div id="Homepage">
+             	<pagetitle><titlemax>Homepage</titlemax></pagetitle>
+				 
+                <article>
+					
+					</article>
+            </div>
+
+            <div id="Calendar">
+                <pagetitle><titlemax>Calendar</titlemax></pagetitle>  
+              	<article>
+					<iframe src="https://calendar.google.com/calendar/embed?src=b8e5627736cae14fa4e16e31d13c5d9459a5f502e07d189ffe6b28d3099f6a29%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0; background-color: var(--macprodblack)" width="100%" height="900px" frameborder="0" scrolling="no"></iframe>
+					</article>
+            </div>
+
+            <div id="Membership">
+                <pagetitle><titlemax>Membership</titlemax></pagetitle>
+                <article>
+					<titlemid>Official Member Signup</titlemid>	
+						<heading>Please help us out and sign up through the msumcmaster.ca (it’s free and only takes a couple seconds)</heading>
+						<paragraph>The more official members we get, the more funds we receive. This means better events and prizes (licenses, plug-ins, drum kits, etc.)</paragraph>
+						<ol><li>Visit the MSU website and find our club in the Clubs Directory page by searching for “McMaster Music Production Society”, or click <a url="https://msumcmaster.ca/initiative/mcmaster-music-production-society/">HERE</a></li>
+						<li>Click “Join Now” and you will be directed to checking out with a club membership in your cart. Fill in a quantity of 1 and add to cart. Your cart should update with your free membership.</li>
+						<li>Click “View Cart” and then fill out the form. Click “Confirm Order”, and you’re all done! Thanks for becoming a MacProd member.</li></ol>
+					<titlemid>Unofficial Member Signup</titlemid>
+					<titlemin>Let us get to know you!</titlemin>
+					</article>
+				
+				<!--Membership (have 2 subheadings, 1 for sign up tutorial and 1 for membership google form) 
+                Tutorial on how to sign up (link to musc, and please use the instructions on the slide show that I shared with you Tyler) 
+                Membership google form (keep track of members + member sign up onto the Collab page)-->
+            </div>
+            <div id="Collab">
+                <pagetitle>
+					<titlemax>Collab</titlemax>
+					<titlemid>Teamwork makes the dreamwork</titlemid>
+					<titlemin>Title min be like</titlemin>
+					</pagetitle>
+                <article>
+					<div class="gridcontainer">
+						<div class="griditem">
+							<img src="../media/images/collab ppl images/williw wood cover.png" alt="" width="201" height="200"/> 
+							<titlemin>John Doe</titlemin>
+							<heading>Biography</heading>
+								<paragraph>Quisque cursus posuere commodo. Sed quis nibh a erat faucibus eleifend sit amet nec nisi. Suspendisse ac turpis venenatis, bibendum orci vitae, condimentum risus. Fusce et velit in dolor efficitur aliquam eu sed lectus. Suspendisse ex leo, euismod at eros eu, pulvinar elementum nisl. Proin non purus sapien. Ut nec ligula aliquet, euismod elit in, convallis est. Aenean quis quam id tellus malesuada venenatis ac a massa. Cras tincidunt odio in mi pretium iaculis. Sed condimentum, eros eget dignissim tristique, nulla dui molestie neque, eu faucibus dolor mi a mi. Ut non ultrices dolor, nec sodales orci. Aliquam dictum lorem leo. Maecenas imperdiet magna ante, ac iaculis quam vestibulum quis. Nulla sed suscipit ipsum. Sed at nisl non nulla scelerisque egestas in a sem.</paragraph>
+							<heading>Genres/Styles</heading>
+								<paragraph>Genre 1, Genre 2, Genre 3</paragraph>
+							<socialmediaicons>
+								<a href="#"><img src="../media/images/social media icons/icons8-discord.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+								<a href="#"><img src="../media/images/social media icons/icons8-instagram.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+								<a href="#"><img src="../media/images/social media icons/icons8-mail.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+								<a href="#"><img src="../media/images/social media icons/icons8-soundcloud.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+								<a href="#"><img src="../media/images/social media icons/icons8-spotify.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+								<a href="#"><img src="../media/images/social media icons/icons8-youtube.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+								</socialmediaicons>
+						</div>
+
+					</div>
+				</article>  
+            </div>	
+
+          <div id="Items">
+            <pagetitle>
+					<titlemax>Items Archive</titlemax>
+					<paragraph>A collection of merch and other items we've created since 2021</paragraph>
+					<br><br><br>
+					</pagetitle>  
+              <article>
+					<titlemid>macProd TShirt </titlemid>
+				  	<titlemin>2021-2022</titlemin>
+				  	<br>
+				  <div class="gridcontainer">
+						<div class="griditem">
+							<img src="../media/images/merch post/macprod merch post lq_0000_macprod merch post-06.jpg" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/merch post/macprod merch post lq_0001_macprod merch post-05.jpg" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/merch post/macprod merch post lq_0002_macprod merch post-04.jpg" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/merch post/macprod merch post lq_0003_macprod merch post-03.jpg" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/merch post/macprod merch post lq_0004_macprod merch post-02.jpg" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/merch post/macprod merch post lq_0005_LAST POST.jpg" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/merch post/macprod merch post lq_0006_FIRST POST.jpg" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/merch post/macprod merch post lq_0007_Layer 0.jpg" width="100%" height="auto" alt=""/>
+					  	</div>
+					</div>
+					
+				  
+			  </article>
+
+			  
+			  <!--Paypal button for everything? 
+                Shirts 
+                Description (images, available sizing, etc.) 
+                Thinking we just post images (from photoshoot too) of merch and say for them to contact us if interested, and they pay in person at meetings 
+                Stickers (say “they are free, come to meetings to get them”)-->
+            </div>
+
+            <div id="Execs">
+                <pagetitle>
+					<titlemax>Execs</titlemax>
+					<paragraph>A collection of merch and other items we've created since 2021</paragraph>
+					<br><br><br>
+					</pagetitle>   
+               	<article>
+					<div class="gridcontainer">
+						<div class="griditem">
+							<img src="../media/images/no background/finaloutputs-no-background_0000_zeke.png" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/no background/finaloutputs-no-background_0001_tyler.png" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/no background/finaloutputs-no-background_0002_nick.png" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/no background/finaloutputs-no-background_0003_matt.png" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/no background/finaloutputs-no-background_0004_ethan.png" width="100%" height="auto" alt=""/>
+					  	</div>
+						<div class="griditem">
+							<img src="../media/images/no background/finaloutputs-no-background_0005_Layer-1.png" width="100%" height="auto" alt=""/>
+					  	</div>
+					</div>
+			
+			  </article>
+				<!--Use the instagram posts 
+                NO GALLERY Pictures of merch, events, “hall of fame” (sprinkle photos throughout the website, don’t need a separate gallery page) 
+                Check Teams/ for images to post, also we need to take more photos of our future meetings 
+                Livelab meeting images posted on Instagram, feel free to use those as well-->
+            </div>	
+
+			<div id="About">
+                <titlemax>About</titlemax>  
+                
+				<!--What the club is (use the stuff from the powerpoint)-->
+            </div>	
+
+
+
+            <div id="Catalog">
+                <titlemax>Catalog</titlemax>  
+          <article>
+			<div class="gridcontainer">
+						<div class="griditem">
+							<iframe width="100%" height="auto" src="https://www.youtube.com/embed/_Q8KP1UCGbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+							<titlemin>Title of Tutorial</titlemin>
+							<heading>Description</heading>
+								<paragraph>Maecenas tempus scelerisque est, ut vehicula purus mollis at. Proin venenatis neque eget scelerisque dapibus. Integer ac scelerisque nisi, eu efficitur justo. Duis dictum neque volutpat erat efficitur pellentesque. Phasellus ac semper nisi. Curabitur id scelerisque tortor. Mauris sit amet lectus pharetra, lobortis lorem eget, laoreet felis. Nunc dui urna, mattis fringilla mollis nec, ullamcorper non sem. In convallis sodales lectus, id porta nisl elementum non.</paragraph>
+					  </div>
+
+			
+						<div class="griditem">
+							<iframe width="100%" height="auto" src="https://www.youtube.com/embed/_Q8KP1UCGbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+							<titlemin>Title of Tutorial</titlemin>
+							<heading>Description</heading>
+								<paragraph>Maecenas tempus scelerisque est, ut vehicula purus mollis at. Proin venenatis neque eget scelerisque dapibus. Integer ac scelerisque nisi, eu efficitur justo. Duis dictum neque volutpat erat efficitur pellentesque. Phasellus ac semper nisi. Curabitur id scelerisque tortor. Mauris sit amet lectus pharetra, lobortis lorem eget, laoreet felis. Nunc dui urna, mattis fringilla mollis nec, ullamcorper non sem. In convallis sodales lectus, id porta nisl elementum non.</paragraph>
+			
+
+						</div>
+						<div class="griditem">
+							<iframe width="100%" height="auto" src="https://www.youtube.com/embed/_Q8KP1UCGbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+							<titlemin>Title of Tutorial</titlemin>
+							<heading>Description</heading>
+								<paragraph>Maecenas tempus scelerisque est, ut vehicula purus mollis at. Proin venenatis neque eget scelerisque dapibus. Integer ac scelerisque nisi, eu efficitur justo. Duis dictum neque volutpat erat efficitur pellentesque. Phasellus ac semper nisi. Curabitur id scelerisque tortor. Mauris sit amet lectus pharetra, lobortis lorem eget, laoreet felis. Nunc dui urna, mattis fringilla mollis nec, ullamcorper non sem. In convallis sodales lectus, id porta nisl elementum non.</paragraph>
+			
+
+						</div>
+			<div class="griditem">
+							<iframe width="100%" height="auto" src="https://www.youtube.com/embed/_Q8KP1UCGbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+							<titlemin>Title of Tutorial</titlemin>
+							<heading>Description</heading>
+								<paragraph>Maecenas tempus scelerisque est, ut vehicula purus mollis at. Proin venenatis neque eget scelerisque dapibus. Integer ac scelerisque nisi, eu efficitur justo. Duis dictum neque volutpat erat efficitur pellentesque. Phasellus ac semper nisi. Curabitur id scelerisque tortor. Mauris sit amet lectus pharetra, lobortis lorem eget, laoreet felis. Nunc dui urna, mattis fringilla mollis nec, ullamcorper non sem. In convallis sodales lectus, id porta nisl elementum non.</paragraph>
+					  </div>
+
+				  </div>
+			  </article> 
+				<!--Gather videos and resources for our members to refer to, to learn about production (tutorials, etc.) 
+                Consider splitting this up into sections (beginner, intermediate, pro) resources-->
+            </div>
+            	
+		</mainmid>
+		<mainbottom></mainbottom>
+		</main>
+
+<!-- TemplateEndEditable -->
+	
+<footer>
+	
+	
+	</footer>
+	
+	
+</body>
+</html>

@@ -72,7 +72,7 @@ heading {
 	font-family: nmpsemibold;
     font-size: calc(var(--paragraphfontsize)*1.2);
 	line-height: 1;
-	margin-top: calc(var(--paragraphfontsize)*0.6);
+	margin-top: calc(var(--paragraphfontsize)*0.4);
     margin-bottom: calc(var(--paragraphfontsize)*0.1);
 	display:block;
 	}
@@ -101,9 +101,9 @@ header {
     z-index: 5;
     position: fixed;
     width: 100vw;
-    text-shadow: 0px 0px 77px box-sizing
-: border-box;;
-}
+    text-shadow: 0px 0px 77px ;
+	box-sizing: border-box;
+	}
 .headerrow {
     display: flex;
     justify-content: space-between;
@@ -137,18 +137,20 @@ header playback {
 	}
 header nav {
     background-color: var(--macprodblack);
-	
-	font-family: nmsemibold;
-	font-size: calc(var(--headertextheight)*0.9);
-	line-height: 1;
-    color: var(--macprodorange);
-	
+
 	gap: var(--headerspacing);
 	padding-left: calc(var(--headertextheight)*0.3);
     padding-right: calc(var(--headertextheight)*0.3);
 	padding-top: calc(var(--headertextheight)*0.15);
 	padding-bottom: calc(var(--headertextheight)*0.15);
 	}
+header nav a {
+	font-family: nmsemibold;
+	font-size: calc(var(--headertextheight)*0.9);
+	line-height: 1;
+    color: var(--macprodorange);
+	text-decoration: none;
+}
 #clock {
     width: calc(var(--headerspacing)*20);
 	}
