@@ -4,6 +4,7 @@ let floatypos = [];
 let divisions = 800;
 let numpoints = 12;
 let j = 0;
+let coin = Math.random();
 
 function setup() {
 	let cnv = createCanvas(windowWidth, windowHeight);
@@ -53,11 +54,14 @@ function generateshape() {
 	let macprodblack = color(12, 12, 12);
 	let macprodblue = color(0, 65, 219);
 	clear();
+	if (coin > 0.5) {
 	for (let i = 0; i < numpoints; i++) {
 		stroke(macprodblue)
 		strokeWeight(noise(floatypos[i][0]/200,floatypos[i][1]/200)*600)
 		point(floatypos[i][0],floatypos[i][1]);
 	}
+	} else{
+		
 	
 //	for (let i = 0; i < numpoints; i=i+4) {
 //		stroke(macprodblue);
@@ -86,17 +90,17 @@ function generateshape() {
 //	endShape();
 //	
 //	
-//	fill(macprodblue);
-//		strokeWeight(1);
-//		stroke(macprodblack);
-//	for (let i = 1; i < numpoints-1; i++) {
-//		
-//		beginShape();
-//		vertex(floatypos[i+1][0],floatypos[i+1][1]);
-//		vertex(floatypos[i][0],floatypos[i][1]);
-//		vertex(floatypos[i-1][0],floatypos[i-1][1]);
-//		bezierVertex(floatypos[i][0],floatypos[i][1],floatypos[i][0],floatypos[i][1],floatypos[i+1][0],floatypos[i+1][1]);
-//		endShape();
-//  	}
-	
+	fill(macprodblue);
+		strokeWeight(1);
+		stroke(macprodblue);
+	for (let i = 1; i < numpoints-1; i++) {
+		
+		beginShape();
+		vertex(floatypos[i+1][0],floatypos[i+1][1]);
+		vertex(floatypos[i][0],floatypos[i][1]);
+		vertex(floatypos[i-1][0],floatypos[i-1][1]);
+		bezierVertex(floatypos[i][0],floatypos[i][1],floatypos[i][0],floatypos[i][1],floatypos[i+1][0],floatypos[i+1][1]);
+		endShape();
+  	}
+	}
 }
