@@ -2,7 +2,7 @@ let floatyposold = [];
 let floatyposnew = [];
 let floatypos = [];
 let divisions = 800;
-let numpoints = 24;
+let numpoints = 12;
 let j = 0;
 
 function setup() {
