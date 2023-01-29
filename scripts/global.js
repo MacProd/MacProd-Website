@@ -1,7 +1,3 @@
-
-
-
-
 setInterval(
 function updateClock() {
     var date = new Date();
@@ -20,12 +16,8 @@ function updateClock() {
     var time = h + ":" + m + ":" + s + ":" + ms;
 	
 	document.getElementById("clock").innerHTML = time;
-	
 }
-	
-
-	
-, 7);
+, 73);
 
 
 

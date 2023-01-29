@@ -9,7 +9,7 @@ let coin = Math.random();
 function setup() {
 	let cnv = createCanvas(windowWidth, windowHeight);
 	cnv.parent('p5globalbackground');
-	frameRate(30);
+	frameRate(23);
 	for (let i = 0; i < numpoints; i++) {
 		floatypos[i] = [random(windowWidth),random(windowHeight),random(10)];
 	}
