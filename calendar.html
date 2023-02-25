@@ -32,37 +32,83 @@
     </globalbackground>
 </global>
 <header>
-    <headertoprow class="headerrow">
-        <logotype class="headerrowitem logotypedesktop">W:/macProd_2022-2023.exe</logotype>
-        <logotype class="headerrowitem logotypemobile">macProd</logotype>
+    <desktopheader>
+        <headertoprow class="headerrow">
+            <logotype class="headerrowitem logotypedesktop"><a href="index.html">W:/macProd_2022-2023.exe</a></logotype>
+            
+            <socialmediaicons class="headerrowitem">
+                <div>[</div>
+                <a href="https://discord.gg/X5JrHUrc6X"><img src="media/images/social%20media%20icons/icons8-discord.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+                <div>[</div>
+                <a href="https://www.instagram.com/macproducers/?hl=en"><img src="media/images/social%20media%20icons/icons8-instagram.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+                <div>[</div>
+                <a href="musicps@mcmaster.ca "><img src="media/images/social%20media%20icons/icons8-mail.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+                <div>[</div>
+                <a href="https://soundcloud.com/macproducers"><img src="media/images/social%20media%20icons/icons8-soundcloud.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+                <div>[</div>
+                <a href="#"><img src="media/images/social%20media%20icons/icons8-spotify.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/> </a>
+                <div>]</div>
+                <div>[</div>
+                <a href="https://www.youtube.com/@mcmastermusicproductionsoc4516/featured"><img src="media/images/social%20media%20icons/icons8-youtube.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+            </socialmediaicons>
+        </headertoprow>
+        <headerbottomrow class="headerrow">
+            <playback class="headerrowitem">
+                <div id="clock">NULL:NULL:</div>
+                <div class="playbackrec">REC •</div>
+            </playback>
+            <nav class="headerrowitem"><a href="calendar.html">CALENDAR</a><a href="membership.html">MEMBERSHIP</a><a href="collab.html">COLLAB</a><a href="items.html">ITEMS</a><a href="catalog.html">CATALOG</a><a href="execs.html">EXECS</a><a href="about.html">ABOUT</a></nav>
+        </headerbottomrow>
+    </desktopheader>
+    <mobileheader> 
+         <headertoprow class="headerrow">
+             <logotype class="headerrowitem logotypemobile"><a href="index.html">macProd</a></logotype>
+            
+             <script>
+                function toggleMenu() {
+                    if (document.getElementById("menubutton").innerHTML=='○') {
+                        document.getElementById("menubutton").innerHTML = "●"; 
+                        document.getElementsByClassName("mobileheaderbottomrow")[0].style.display = "none";
+                    } else if (document.getElementById("menubutton").innerHTML=='●') {
+                        document.getElementById("menubutton").innerHTML = "○"; 
+                        document.getElementsByClassName("mobileheaderbottomrow")[0].style.display = "flex";
+                    }
+                }
+                
+             </script>
+            <button id="menubutton" onclick="toggleMenu()">●</button>
+             
+        </headertoprow>
+        <headerbottomrow class="headerrow mobileheaderbottomrow">
+            <nav class="headerrowitem"><a href="calendar.html">CALENDAR</a><a href="membership.html">MEMBERSHIP</a><a href="collab.html">COLLAB</a><a href="items.html">ITEMS</a><a href="catalog.html">CATALOG</a><a href="execs.html">EXECS</a><a href="about.html">ABOUT</a></nav>
         <socialmediaicons class="headerrowitem">
-            <div>[</div>
-            <a href="https://discord.gg/X5JrHUrc6X"><img src="media/images/social%20media%20icons/icons8-discord.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
-            <div>]</div>
-            <div>[</div>
-            <a href="https://www.instagram.com/macproducers/?hl=en"><img src="media/images/social%20media%20icons/icons8-instagram.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
-            <div>]</div>
-            <div>[</div>
-            <a href="musicps@mcmaster.ca "><img src="media/images/social%20media%20icons/icons8-mail.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
-            <div>]</div>
-            <div>[</div>
-            <a href="https://soundcloud.com/macproducers"><img src="media/images/social%20media%20icons/icons8-soundcloud.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
-            <div>]</div>
-            <div>[</div>
-            <a href="#"><img src="media/images/social%20media%20icons/icons8-spotify.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/> </a>
-            <div>]</div>
-            <div>[</div>
-            <a href="https://www.youtube.com/@mcmastermusicproductionsoc4516/featured"><img src="media/images/social%20media%20icons/icons8-youtube.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
-            <div>]</div>
-        </socialmediaicons>
-    </headertoprow>
-    <headerbottomrow class="headerrow">
-        <playback class="headerrowitem">
-            <div id="clock">NULL:NULL:</div>
-            <div class="playbackrec">REC •</div>
-        </playback>
-        <nav class="headerrowitem"><a href="calendar.html">CALENDAR</a><a href="membership.html">MEMBERSHIP</a><a href="collab.html">COLLAB</a><a href="items.html">ITEMS</a><a href="catalog.html">CATALOG</a><a href="execs.html">EXECS</a><a href="about.html">ABOUT</a></nav>
-    </headerbottomrow>
+                <div>[</div>
+                <a href="https://discord.gg/X5JrHUrc6X"><img src="media/images/social%20media%20icons/icons8-discord.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+                <div>[</div>
+                <a href="https://www.instagram.com/macproducers/?hl=en"><img src="media/images/social%20media%20icons/icons8-instagram.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+                <div>[</div>
+                <a href="musicps@mcmaster.ca "><img src="media/images/social%20media%20icons/icons8-mail.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+                <div>[</div>
+                <a href="https://soundcloud.com/macproducers"><img src="media/images/social%20media%20icons/icons8-soundcloud.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+                <div>[</div>
+                <a href="#"><img src="media/images/social%20media%20icons/icons8-spotify.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/> </a>
+                <div>]</div>
+                <div>[</div>
+                <a href="https://www.youtube.com/@mcmastermusicproductionsoc4516/featured"><img src="media/images/social%20media%20icons/icons8-youtube.svg" style="width:var(--headericonsize); height:var(--headericonsize)"/></a>
+                <div>]</div>
+            </socialmediaicons>
+        </headerbottomrow>
+        
+    </mobileheader>
 </header>
 <!-- InstanceBeginEditable name="contentframe" -->
 	

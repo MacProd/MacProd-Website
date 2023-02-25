@@ -11,7 +11,7 @@ body {
     /* [disabled]overflow: hidden; */
 }
 main {
-    padding-top: calc(var(--globalspacing)*6);
+    padding-top: calc(var(--globalspacing)*2);
     padding-right: calc(var(--globalspacing)*1.5);
     padding-bottom: calc(var(--globalspacing)*1.5);
     padding-left: calc(var(--globalspacing)*2)
