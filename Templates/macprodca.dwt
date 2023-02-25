@@ -2,11 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8">
+
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
 <!-- TemplateEndEditable -->
-<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateBeginEditable name="head" --> 
 <!-- TemplateEndEditable -->
+<link rel="icon" type="image/x-icon" href="/media/images/favicon.ico">
 <link href="../styling/macprodca styling.css" rel="stylesheet" type="text/css">
 <link href="../styling/global and header.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="../scripts/p5.js"></script> 
