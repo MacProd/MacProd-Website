@@ -29,6 +29,7 @@
     <globalbackground>
         <div id="p5globalbackground"></div>
         <script type="text/javascript" src="scripts/GlobalBackgroundContentArea.js"></script> 
+        <script src="scripts/c2.js"></script>
     </globalbackground>
 </global>
 <header>
@@ -71,17 +72,17 @@
             
              <script>
                 function toggleMenu() {
-                    if (document.getElementById("menubutton").innerHTML=='○') {
-                        document.getElementById("menubutton").innerHTML = "●"; 
+                    if (document.getElementById("menubutton").innerHTML=='○○○') {
+                        document.getElementById("menubutton").innerHTML = "●●●"; 
                         document.getElementsByClassName("mobileheaderbottomrow")[0].style.display = "none";
-                    } else if (document.getElementById("menubutton").innerHTML=='●') {
-                        document.getElementById("menubutton").innerHTML = "○"; 
+                    } else if (document.getElementById("menubutton").innerHTML=='●●●') {
+                        document.getElementById("menubutton").innerHTML = "○○○"; 
                         document.getElementsByClassName("mobileheaderbottomrow")[0].style.display = "flex";
                     }
                 }
                 
              </script>
-            <button id="menubutton" onclick="toggleMenu()">●</button>
+            <button id="menubutton" onclick="toggleMenu()">●●●</button>
              
         </headertoprow>
         <headerbottomrow class="headerrow mobileheaderbottomrow">
