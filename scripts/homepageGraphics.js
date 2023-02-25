@@ -8,7 +8,7 @@ let ropePath = [new c2.Point(Math.random()*window.innerWidth, Math.random()*wind
 let ropeLength = 10*window.innerWidth/960;
 let ropeNodes = [];
 let world = new c2.World(new c2.Rect(0, 0, window.innerWidth, window.innerHeight-30))
-let world2 = new c2.World(new c2.Rect(0, 200, window.innerWidth, window.innerHeight-450))
+let world2 = new c2.World(new c2.Rect(0, 200, window.innerWidth, window.innerHeight-200))
 let xStepFactor = window.innerWidth * 1 / ropeLength;
 let yStepFactor = window.innerHeight * 1 / ropeLength;
 let currentMouseSelection
@@ -79,7 +79,7 @@ function setup() {
 
     for (let i = 0; i<12; i++) {
         let newParticle = new c2.Particle(random(windowWidth),random(windowHeight))
-        newParticle.radius=minDim / 8
+        newParticle.radius=minDim / 12
         newParticle.mass=100
         world2.addParticle(newParticle)
     }
