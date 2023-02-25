@@ -13,9 +13,17 @@ let xStepFactor = window.innerWidth * 1 / ropeLength;
 let yStepFactor = window.innerHeight * 1 / ropeLength;
 let currentMouseSelection
 let randomStartPosition = Math.floor(Math.random()*10)
+let minDim;
+if (window.innerWidth>window.innerHeight) {
+    minDim = window.innerHeight
+} else {
+    minDim = window.innerWidth
+}
+
 function inBounds(IN) {
     return (IN.x > 0 && IN.y > 0 && IN.x < window.innerWidth && IN.y < window.innerHeight)
 }
+
 
 function preload() {
     myFont = loadFont('styling/fonts/pp_neue_machina/TTF/PPNeueMachina-InktrapBlack.ttf');
@@ -46,10 +54,10 @@ function setup() {
 
         let newPoint = new c2.Point(lastPoint.x, lastPoint.y)
 
-        newPoint.translate(random(-xStepFactor*2, xStepFactor*2), random(-yStepFactor*2, yStepFactor*2))
+        newPoint.translate(random(-xStepFactor*3, xStepFactor*3), random(-yStepFactor*3, yStepFactor*3))
         while (!inBounds(newPoint)) {
             newPoint = new c2.Point(lastPoint.x, lastPoint.y)
-            newPoint.translate(random(-xStepFactor*2, xStepFactor*2), random(-yStepFactor*2, yStepFactor*2))
+            newPoint.translate(random(-xStepFactor*3, xStepFactor*3), random(-yStepFactor*3, yStepFactor*3))
         }
         ropePath.push(newPoint)
 
@@ -66,10 +74,10 @@ function setup() {
     console.log(world)
 
     textFont(myFont);
-    textSize(windowWidth / 6);
+    textSize(minDim / 4);
     textAlign(CENTER)
 
-    for (let i = 0; i<8; i++) {
+    for (let i = 0; i<12; i++) {
         let newParticle = new c2.Particle(random(windowWidth),random(windowHeight))
         newParticle.radius=80
         newParticle.mass=100
