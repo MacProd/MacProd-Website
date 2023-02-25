@@ -5,7 +5,7 @@ let colors;
 let trs;
 let connectorCoord;
 let ropePath = [new c2.Point(Math.random()*window.innerWidth, Math.random()*window.innerHeight)];
-let ropeLength = 10*window.innerWidth/360;
+let ropeLength = 10*window.innerWidth/960;
 let ropeNodes = [];
 let world = new c2.World(new c2.Rect(0, 0, window.innerWidth, window.innerHeight-30))
 let world2 = new c2.World(new c2.Rect(0, 200, window.innerWidth, window.innerHeight-450))
