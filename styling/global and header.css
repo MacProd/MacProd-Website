@@ -49,7 +49,7 @@
     header {
         background-color: var(--macprodorange);
         margin: 0px;
-        z-index: 5;
+        z-index: 50;
         position: -webkit-sticky;
         position: sticky;
         top: 0;
@@ -123,14 +123,14 @@
         --paragraphfontsize:16px;
         --headerspacing:calc(var(--globalspacing)*1);
         --headertextheight:calc(var(--paragraphfontsize)*3);
-        --headericonsize:13vw;
+        --headericonsize:calc(var(--paragraphfontsize)*3);
         --headertopbottompaddingfactor:0.3;
     }
     header {
 
         background-color: var(--macprodorange);
         margin: 0px;
-        z-index: 5;
+        z-index: 50;
         position: -webkit-sticky;
         position: sticky;
         top: 0;
@@ -138,9 +138,9 @@
         text-shadow: 0px 0px 77px ;
         box-sizing: border-box;
 
-        padding-left: var(--headerspacing);
-        padding-right: var(--headerspacing);
-        padding-top: calc(var(--headerspacing)*var(--headertopbottompaddingfactor)*1.2);
+        padding-left: calc(var(--headerspacing)*0.5);
+        padding-right: calc(var(--headerspacing)*0.5);
+        padding-top: calc(var(--headerspacing)*var(--headertopbottompaddingfactor)*2);
         padding-bottom: calc(var(--headerspacing)*var(--headertopbottompaddingfactor));
     }
     #menubutton {
@@ -171,6 +171,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding-top: calc(var(--headerspacing)*0.5);
     }
     socialmediaicons img {
         width:var(--headericonsize); height:var(--headericonsize)
@@ -204,6 +205,14 @@
         text-decoration: none;
     }
 }
+
+::-webkit-scrollbar {width: calc(var(--globalspacing)*0.5);background: var(--macprodorange);}
+::-webkit-scrollbar-track {background: var(--macprodorange);opacity: 0.5;margin-top: 15vh;}
+::-webkit-scrollbar-thumb {background: var(--macprodblack);border-radius: 10px;width:5px;}
+::-webkit-scrollbar-thumb:hover {background: var(--macprodblue);}
+::-webkit-scrollbar-corner {display:none;}
+::-webkit-scrollbar-button {display: none;}
+
 
 globaloverlay  {
 }
@@ -265,3 +274,83 @@ ol {
 	margin-top: calc(var(--paragraphfontsize)*0.5);
     margin-bottom: calc(var(--paragraphfontsize)*1);
 	}
+
+
+
+
+
+
+
+
+
+body {
+    background-color: var(--macprodblack);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+overflow-y: scroll;
+    overflow-x: hidden;
+
+    /* [disabled]overflow: hidden; */
+}
+main {
+
+    padding-top: calc(var(--globalspacing)*2);
+    padding-right: calc(var(--globalspacing)*1.5);
+    padding-bottom: calc(var(--globalspacing)*1.5);
+    padding-left: calc(var(--globalspacing)*2)
+}
+
+
+.media {
+    border-color: var(--macprodorange);
+    border-width: 5px;
+    border-style: dashed;
+    -webkit-box-shadow: 0px 0px 100px 10px var(--macprodorange);
+    box-shadow: 0px 0px 100px 10px var(--macprodorange);
+}
+.gridcontainer  {
+    display: grid;
+	gap: 20px;
+	grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
+}
+
+#Collab socialmediaicons {
+    background-color: var(--macprodorange);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+globaloverlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index: 4;
+    box-sizing: border-box;
+    border-width: calc(var(--globalspacing)*0.5);
+    border-style: solid;
+    border-color: var(--macprodorange);
+
+	pointer-events:none;
+}
+globaloverlay bottomleft {
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+}
+globaloverlay contentarea {
+    width: 100vw;
+    height: 100vh;
+}
+globalbackground {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+    -webkit-box-shadow: inset 0px 0px calc(var(--globalspacing)*3) 0px var(--macprodorange );
+    box-shadow: inset 0px 0px calc(var(--globalspacing)*3) 0px var(--macprodorange );
+}
