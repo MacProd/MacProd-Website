@@ -5,7 +5,7 @@ let colors;
 let trs;
 let connectorCoord;
 let ropePath = [new c2.Point(Math.random()*window.innerWidth, Math.random()*window.innerHeight)];
-let ropeLength = 10*window.innerWidth/640;
+let ropeLength = 10*window.innerWidth/360;
 let ropeNodes = [];
 let world = new c2.World(new c2.Rect(0, 0, window.innerWidth, window.innerHeight-30))
 let world2 = new c2.World(new c2.Rect(0, 200, window.innerWidth, window.innerHeight-450))
@@ -46,8 +46,8 @@ function setup() {
     world.addInteractionForce(new c2.Collision())
     world.addInteractionForce(new c2.Gravitation(-0.2))
     world2.addInteractionForce(new c2.Collision())
-    world2.addInteractionForce(new c2.Gravitation(-2))
-
+    world2.addInteractionForce(new c2.Gravitation(-10))
+    world2.friction = 0.3
     world.addParticle(new c2.Particle(ropePath[0].x, ropePath[0].y))
     for (let i = 1; i < ropeLength + 1; i++) {
         let lastPoint = ropePath[ropePath.length - 1]
@@ -79,7 +79,7 @@ function setup() {
 
     for (let i = 0; i<12; i++) {
         let newParticle = new c2.Particle(random(windowWidth),random(windowHeight))
-        newParticle.radius=80
+        newParticle.radius=minDim / 8
         newParticle.mass=100
         world2.addParticle(newParticle)
     }
@@ -88,12 +88,13 @@ function setup() {
 }
 
 function draw() {
-
-    clear()
+    let backgroundColor=colors[(randomStartPosition)%colors.length]
+    backgroundColor.setAlpha(200)
+    background(backgroundColor)
     if (!mouseIsPressed) {
         currentMouseSelection=undefined;
     }
-
+    backgroundColor.setAlpha(255)
     noStroke()
     let words = ['Welcome','To','MacProd','Welcome']
     for (let i = 0; i<world2.particles.length-1; i++) {
@@ -101,8 +102,8 @@ function draw() {
         fill(colors[(i+randomStartPosition)%colors.length])
         //stroke(colors[(i+randomStartPosition+1)%colors.length])
         let curParticle = world2.particles[i]
-        if (currentMouseSelection==i+50 || (mouseIsPressed && currentMouseSelection == undefined && abs(curParticle.position.x-mouseX)<50 && abs(curParticle.position.y-mouseY)<50)) {
-            currentMouseSelection=i+50;
+        if (currentMouseSelection==i+500 || (mouseIsPressed && currentMouseSelection == undefined && abs(curParticle.position.x-mouseX)<(minDim / 4) && abs(curParticle.position.y-mouseY)<(minDim / 4))) {
+            currentMouseSelection=i+500;
             curParticle.position.x=mouseX;
             curParticle.position.y=mouseY;
         }
@@ -115,14 +116,9 @@ function draw() {
     }
 
 
-
-
-
     noFill();
     stroke(colors[(randomStartPosition)%colors.length])
     strokeWeight(40)
-
-
 
     let lastNode = world.springs[world.springs.length - 1]
     let secondLastNode = world.springs[world.springs.length - 2]
@@ -131,7 +127,7 @@ function draw() {
     for (let i = 0; i < ropeLength; i++) {
         curveVertex(world.springs[i].p1.position.x, world.springs[i].p1.position.y)
 
-        if (currentMouseSelection==i || (mouseIsPressed && currentMouseSelection == undefined && abs(world.springs[i].p1.position.x-mouseX)<25 && abs(world.springs[i].p1.position.y-mouseY)<25)) {
+        if (currentMouseSelection==i || (mouseIsPressed && currentMouseSelection == undefined && abs(world.springs[i].p1.position.x-mouseX)<(minDim / 8) && abs(world.springs[i].p1.position.y-mouseY)<(minDim / 8))) {
             currentMouseSelection=i;
             world.springs[i].p1.position.x=mouseX;
             world.springs[i].p1.position.y=mouseY;
