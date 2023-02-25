@@ -28,8 +28,9 @@
     </globaloverlay>
     <globalbackground>
         <div id="p5globalbackground"></div>
-        <script type="text/javascript" src="../scripts/GlobalBackgroundContentArea.js"></script> 
         <script src="../scripts/c2.js"></script>
+        <script type="text/javascript" src="../scripts/GlobalBackgroundContentArea.js"></script> 
+        
     </globalbackground>
 </global>
 <header>
